@@ -6,7 +6,7 @@ _G.ToggleColor = Color3.fromRGB(255,0,0)
 _G.ButtonColor = Color3.fromRGB(0,255,0)
 _G.SliderColor = Color3.fromRGB(0,0,255)
 
-local library = loadstring(game:HttpGet(('https://garfieldscripts.xyz/ui-libs/wallys-ui.lua')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/refs/heads/main/wall%20v3')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
 local w = library:CreateWindow("Holdable CPS")
 
 local b = w:CreateFolder("B")
