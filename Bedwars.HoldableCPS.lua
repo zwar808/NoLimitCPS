@@ -9,7 +9,7 @@ _G.SliderColor = Color3.fromRGB(0,0,255)
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/refs/heads/main/wall%20v3')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
 local w = library:CreateWindow("Holdable CPS")
 
-local b = w:CreateFolder("B")
+local b = w:CreateFolder("Main")
 local function clickLoop()
     while autoClickerEnabled do
         if UserInputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) then
